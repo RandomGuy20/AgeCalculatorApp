@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+
+  <div class="inner-container">
+
+    <div class="top-row">
+
+      <div class="data-entry">
+        <p class="spacing bold-text ">DAY</p>
+        <input class="day " id="day" type="text" placeholder="DD">
+        <p class="red-text visible " id="day-warning">This field is required</p>
+      </div>
+  
+      <div class="data-entry">
+        <p class="spacing bold-text" red-text>MONTH</p>
+        <input class="day " id="month" type="text" placeholder="MM">
+        <p class="red-text visible warning" id="month-warning">This field is required</p>
+      </div>
+  
+      <div class="data-entry">
+        <p class="spacing bold-text">YEAR</p>
+        <input class="day " id="year" type="text" placeholder="YYYY">
+        <p class="red-text visible warning" id="year-warning">This field is required</p>
+      </div>
+    </div>
+    
+    <div class="separator"> 
+      <div class="grey-line"></div>
+      <button class="btn base-purple"> 
+        <img class="arrow" src="./assets/images/icon-arrow.svg" alt="">
+      </button>
+    </div>
+  
+    <div class="data-container">
+  
+      <div class="data-output">
+        <span id="years"  class="dynamic-text">- -</span>
+        <span class="black-letters"> years</span>
+      </div>
+  
+      <div class="data-output">
+        <span id="months"  class="dynamic-text">- -</span>
+        <span class="black-letters"> months</span>
+      </div>
+  
+      <div class="data-output">
+        <span id="days" class="dynamic-text">- -</span>
+        <span  class="black-letters"> days</span>
+      </div>
+  
+    </div>
+
+  </div>
+
+
+
+</div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/RandomGuy20?tab=repositories">RandomGuy20</a>.
+  </div>
+  <script src="./app/script.js"></script>
+</body>
+</html>
